@@ -4,18 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Gala's Palindrome Checker</title>
 </head>
 
 <body>
-    <header>
-        <h1>What is a Palindrome?!</h1>
-        <p>A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
+    <!--HEADER-->
+    <header class="header">
+        <h1 class="title">What is a Palindrome?!</h1>
+        <p class="title-description">A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.</p>
     </header>
 
-    <main>
+    <!--MAIN-->
+    <main class="main">
+        <!--CONTAINER-->
         <div class="container">
-            <div class="description">
+            <div class="list">
                 <ul>
                     <li>We'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything into the same case (lower or upper case) in order to check for palindromes.</li>
                     <li>We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR" among others.
@@ -26,6 +30,7 @@
             </div>
 
             <div class="check">
+                <!--FORM-->
                 <form id="form" action="">
                     <label for="check">Let's try!</label>
                     <input type="text" id="check" placeholder="Type here..." required>
@@ -33,10 +38,13 @@
                 </form>
             </div>
 
-            <div class=" answer ">
+            <div class="answer">
                 <p id="isornot"></p>
             </div>
         </div>
+        <footer class="footer">
+
+        </footer>
     </main>
 
 </body>
