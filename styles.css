@@ -1,0 +1,218 @@
+body {
+    background-color: #9d9ea3;
+}
+
+
+/**HEADER**/
+
+.header {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+    margin: 4rem 0 1rem 0;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.title span {
+    display: inline-block;
+    position: relative;
+    letter-spacing: -8px;
+    transition: all 0.2s ease-out;
+}
+
+.char1 {
+    color: #BE4058;
+    text-shadow: #941438 -4px 4px 0;
+    transform: rotate(-3deg);
+}
+
+.char1:hover {
+    transform: rotate(10deg);
+}
+
+.char2 {
+    color: #701B2C;
+    text-shadow: #470216 -4px 4px 0;
+}
+
+.char3 {
+    color: #BDB753;
+    text-shadow: #948C22 -4px 4px 0;
+    top: -1px;
+    transform: rotate(2deg);
+}
+
+.char3:hover {
+    transform: rotate(15deg);
+}
+
+.char4 {
+    color: #2D94BD;
+    text-shadow: #047294 -4px 4px 0;
+    top: -7px;
+    margin-right: 20px;
+}
+
+.char5 {
+    color: #215A70;
+    text-shadow: #063847 -4px 4px 0;
+}
+
+.char5:hover {
+    transform: rotate(-20deg);
+}
+
+.char6 {
+    color: #BE4058;
+    text-shadow: #941438 -4px 4px 0;
+    top: -7px;
+    transform: rotate(2deg);
+    margin-right: 20px;
+}
+
+.char7 {
+    color: #BDB753;
+    text-shadow: #948C22 -4px 4px 0;
+    margin-right: 20px;
+}
+
+.char8 {
+    color: #215A70;
+    text-shadow: #063847 -4px 4px 0;
+    top: 1px;
+    transform: rotate(-2deg);
+}
+
+.char8:hover {
+    transform: rotate(-20deg);
+}
+
+.char9 {
+    color: #701B2C;
+    text-shadow: #470216 -4px 4px 0;
+    transform: rotate(-3deg);
+}
+
+.char9:hover {
+    transform: rotate(15deg);
+}
+
+.char10 {
+    color: #2D94BD;
+    text-shadow: #047294 -4px 4px 0;
+    top: -7px;
+}
+
+.char10:hover {
+    top: 17px;
+}
+
+.char11 {
+    color: #BDB753;
+    text-shadow: #948C22 -4px 4px 0;
+}
+
+.char12 {
+    color: #BE4058;
+    text-shadow: #941438 -4px 4px 0;
+}
+
+.char12:hover {
+    transform: rotate(20deg);
+}
+
+.char13 {
+    color: #701B2C;
+    text-shadow: #470216 -4px 4px 0;
+}
+
+.char14 {
+    color: #BDB753;
+    text-shadow: #948C22 -4px 4px 0;
+    top: -7px;
+}
+
+.char14:hover {
+    top: 17px;
+}
+
+.char15 {
+    color: #2D94BD;
+    text-shadow: #047294 -4px 4px 0;
+}
+
+.char16 {
+    color: #215A70;
+    text-shadow: #063847 -4px 4px 0;
+    top: -1px;
+    transform: rotate(2deg);
+}
+
+.char16:hover {
+    transform: rotate(20deg);
+}
+
+.char17 {
+    color: #701B2C;
+    text-shadow: #470216 -4px 4px 0;
+    margin-right: 20px;
+    top: -1px;
+    transform: rotate(-2deg);
+}
+
+.char18 {
+    color: #BE4058;
+    text-shadow: #941438 -4px 4px 0;
+}
+
+.char19 {
+    color: #BE4058;
+    text-shadow: #941438 -4px 4px 0;
+    top: 4px;
+}
+
+.char19:hover {
+    top: -17px;
+}
+
+.title-description {
+    font-size: 1.2em;
+    text-align: center;
+    width: 30rem;
+    margin: 0 auto 1rem auto;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+}
+
+
+/**MAIN**/
+
+.main {}
+
+
+/**List**/
+
+.container {}
+
+.list {}
+
+
+/**Form**/
+
+.check {}
+
+.form {}
+
+.answer {}
+
+
+/**Footer**/
+
+.footer {}
