@@ -16,6 +16,13 @@ body {
     margin: 3rem 0 1rem 0;
 }
 
+@media (max-width: 768px) {
+    .title {
+        font-size: 4.9em;
+        padding: 1rem;
+    }
+}
+
 .title:hover {
     cursor: pointer;
 }
@@ -207,6 +214,7 @@ body {
 .container {
     width: 20rem;
     margin: 0 auto;
+    padding: 0 .5rem;
 }
 
 @media (max-width: 768px) {
@@ -290,6 +298,13 @@ body {
     text-shadow: #047294 -1px 1px 0;
     transition: transform .7s;
     margin: 0!important;
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: auto;
+        font-size: 2.3rem!important;
+    }
 }
 
 .button:hover {
