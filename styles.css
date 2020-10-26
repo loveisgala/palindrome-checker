@@ -16,12 +16,6 @@ body {
     margin: 3rem 0 1rem 0;
 }
 
-@media (max-width: 768px) {
-    .title {
-        padding: .5rem;
-    }
-}
-
 .title:hover {
     cursor: pointer;
 }
@@ -31,6 +25,13 @@ body {
     position: relative;
     letter-spacing: -8px;
     transition: all 0.2s ease-out;
+}
+
+@media (max-width: 768px) {
+    .title {
+        width: 85%;
+        margin: 3rem auto 1rem auto;
+    }
 }
 
 .char1 {
@@ -201,6 +202,7 @@ body {
 @media (max-width: 768px) {
     .title-description {
         width: auto;
+        padding: 0 1rem;
     }
 }
 
@@ -231,6 +233,12 @@ body {
 .list ul {
     margin: 0;
     list-style: upper-roman;
+}
+
+@media (max-width: 768px) {
+    .list {
+        padding: 0 1rem;
+    }
 }
 
 
@@ -334,6 +342,17 @@ button:focus {
     color: rgb(212, 212, 212);
     font-size: 1.1rem;
     padding: .9rem .9rem .5rem 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 2rem;
+        padding: .7rem .7rem .3rem 0;
+        font-size: .9rem;
+    }
+    .footer i {
+        font-size: 1.7rem!important;
+    }
 }
 
 .footer p {
