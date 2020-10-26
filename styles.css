@@ -18,7 +18,6 @@ body {
 
 @media (max-width: 768px) {
     .title {
-        font-size: 4.9em;
         padding: .5rem;
     }
 }
@@ -287,9 +286,9 @@ body {
     background-color: #e6e071;
     font-family: 'Caveat Brush', cursive;
     border-radius: 50%!important;
+    height: 110px;
+    width: 110px;
     border: none;
-    width: 7.2rem;
-    height: 7rem;
     font-size: 2rem!important;
     font-weight: 600;
     transform: rotate(-25deg);
@@ -298,14 +297,6 @@ body {
     text-shadow: #047294 -1px 1px 0;
     transition: transform .7s;
     margin: 0!important;
-}
-
-@media (max-width: 768px) {
-    .button {
-        width: auto;
-        height: 7rem;
-        font-size: 2.3rem!important;
-    }
 }
 
 .button:hover {
