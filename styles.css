@@ -1,5 +1,6 @@
 body {
     background-color: #9d9ea3;
+    width: 100%;
 }
 
 
@@ -191,6 +192,12 @@ body {
     color: rgb(212, 212, 212);
 }
 
+@media (max-width: 768px) {
+    .title-description {
+        width: auto;
+    }
+}
+
 
 /**MAIN**/
 
@@ -200,6 +207,12 @@ body {
 .container {
     width: 20rem;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+    }
 }
 
 .list {
@@ -255,6 +268,13 @@ body {
     height: 2.5rem;
 }
 
+@media (max-width: 768px) {
+    #check {
+        width: 80%;
+        height: auto;
+    }
+}
+
 .button {
     background-color: #e6e071;
     font-family: 'Caveat Brush', cursive;
@@ -298,6 +318,23 @@ button:focus {
 /**Footer**/
 
 .footer {
-    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 2.5rem;
     background-color: dimgrey;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+    font-size: 1.1rem;
+    padding: .9rem .9rem .5rem 0;
+}
+
+.footer p {
+    margin: .5rem .6rem 0 0;
+}
+
+.footer i {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin: 0 .5rem;
 }
