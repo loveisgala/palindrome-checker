@@ -12,7 +12,7 @@ body {
 .title {
     font-family: 'Staatliches', cursive;
     font-size: 5em;
-    margin: 4rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .title:hover {
@@ -185,34 +185,119 @@ body {
     font-size: 1.2em;
     text-align: center;
     width: 30rem;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 2.5rem auto;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(212, 212, 212);
 }
 
 
 /**MAIN**/
 
-.main {}
-
 
 /**List**/
 
-.container {}
+.container {
+    width: 20rem;
+    margin: 0 auto;
+}
 
-.list {}
+.list {
+    color: rgb(221, 212, 212);
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.list ul {
+    margin: 0;
+    list-style: upper-roman;
+}
 
 
 /**Form**/
 
-.check {}
+.check {
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(221, 212, 212);
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
-.form {}
+.check label {
+    font-size: 2rem;
+    color: #BE4058;
+    text-shadow: #941438 -2px 2px 0;
+}
 
-.answer {}
+.check span {
+    color: #cfc95a;
+    text-shadow: #948C22 -2px 2px 0;
+}
+
+.check input {
+    font-size: 2rem;
+    border-radius: 20px;
+    margin: 1rem 0;
+    text-align: center;
+    border: none;
+}
+
+.check input::placeholder {
+    font-size: 1.2rem;
+    transform: translateY(-5px);
+    color: rgb(196, 196, 196);
+}
+
+#check {
+    width: 20rem;
+    height: 2.5rem;
+}
+
+.button {
+    background-color: #e6e071;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 50%!important;
+    border: none;
+    width: 7.2rem;
+    height: 7rem;
+    font-size: 2rem!important;
+    font-weight: 600;
+    transform: rotate(-25deg);
+    color: #6ab9d8;
+    text-transform: uppercase;
+    text-shadow: #047294 -1px 1px 0;
+    transition: transform .7s;
+    margin: 0!important;
+}
+
+.button:hover {
+    text-shadow: #BE4058 -2px 2px 3px;
+    transform: rotate(15deg);
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.answer {
+    height: 5.5 rem;
+    width: 20rem;
+    margin: 0 auto;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
 
 
 /**Footer**/
 
-.footer {}
+.footer {
+    height: 4rem;
+    background-color: dimgrey;
+}
