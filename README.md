@@ -13,4 +13,6 @@ Created with:
 * CSS
 * JavaScript
 
+palindrome-checker.vercel.app
+
 <img src="https://github.com/loveisgala/palindrome-checker/blob/main/screen1.png" alt="view"/> 
